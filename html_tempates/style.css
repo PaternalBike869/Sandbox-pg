@@ -1,0 +1,64 @@
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif; /* Suggested font */
+  margin:  0;
+  padding:  0;
+  background-color: #fafafa; /* Light gray background */
+}
+
+/* Menu Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top:  0;
+  z-index:  1000;
+  background-color: #ffffff; /* White background for menu */
+  box-shadow:  0px  2px  4px rgba(0,  0,  0,  0.1); /* Shadow for menu */
+}
+
+nav ul {
+  list-style-type: none;
+  margin:  0;
+  padding:  0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: #333333; /* Dark gray text */
+  text-align: center;
+  padding:  14px  16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #dddddd; /* Gray hover effect */
+}
+
+/* Main Content Styles */
+main {
+  max-width:  1200px; /* Fixed width for the content */
+  margin:  0 auto; /* Centered content */
+  padding:  20px;
+}
+
+/* Footer Styles */
+footer {
+  clear: both; /* Clear floats to separate from menu */
+  background-color: #eeeeee; /* Lighter gray background for footer */
+  padding:  20px;
+  text-align: center;
+}
+
+/* Separator Line */
+hr {
+  border:  0;
+  height:  1px;
+  background: #333; /* Dark gray separator line */
+}
